@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    color: #363958;
+}
+h3{
+    font-size: 22px;
+    color: #363958;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-size: 18px;
+    color: #3E3E3E;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: url('images/photos/header-top.png');
+    background-repeat: no-repeat;
+    background-position: 450px;
+}
+.nav-logo{
+    width: 300px;
+    height: 40px;
+}
+
+.ml-auto{
+    margin-left: auto;
+}
+
+.banner_section h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+}
+.banner_section p{
+    font-size: 18px;
+    color: #3E3E3E;
+}
+.banner_section img{
+    height: 440px;
+    width: 440px;
+}
+.banner_section span{
+    color: #76C27E;
+}
+.backpack_button{
+    background: #2A1E59;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.backpack_button:hover{
+    color: #ffffff;
+}
+.services{
+    margin-right: 25px;
+}
+.services img{
+    width: 80px;
+    height: 80px;
+    margin-right: 25px;
+}
+.rounded{
+    border-radius: 10px !important;
+}
+.card-img{
+    background: #F1F1F1;
+    border-radius: 10px;
+}
+.backpack-card{
+    border: none;
+}
+.pngwing img{
+    padding: 10px;
+}
+.backpack-price{
+    color: #76C27E;
+    font-size: 30px;
+    font-weight: 900;
+}
+.registration-form{
+    width: 600px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.registration-form input[type="text"], input[type="password"]{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.form-section {
+    background: #F1F1F1;
+}
+form{
+    width: 550px;
+    margin: 0 auto;
+}
+.form-group input[type="email"], input[type="password"]{
+    margin-bottom: 15px;
+}
+.navbar-light  .navbar-toggler{
+    border: none;
+}
+
